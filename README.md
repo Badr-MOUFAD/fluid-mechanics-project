@@ -1,5 +1,5 @@
 # Overview
-Part of a (mini) project in fluids mechanics, I studied together with my teammate **Zoubir MOUSTATIA** 
+Part of a (mini) project in fluid mechanics, I studied together with my teammate **Zoubir MOUSTATIA** 
 (@mzoubir01) the classical example of a flow around a cylinder. 
 
 Our focus was mainly on characterizing the flow by the **Reynolds number** (Re), 
@@ -12,7 +12,7 @@ Finally, we were able to deduce the evolution of Strouhal number as a function o
 We have used `OpenFOAM` as solver to simulate the system, `Paraview` to visualize the output,
 and `Python` to postprocess data.
 
-The project article can be found [here](link_to_the_article).
+The project article can be found [here](article-fluid-mechanics.pdf).
 
 
 

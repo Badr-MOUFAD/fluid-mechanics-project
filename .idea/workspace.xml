@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e58db351-b8c5-4f8f-ab64-b5eb32dbaa03" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulation_scripts/comparaison_cd.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulation_scripts/comparaison_cd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulation_scripts/comparaison_st.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulation_scripts/comparaison_st.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulation_scripts/example_fourier_transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulation_scripts/example_fourier_transform.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulation_scripts/plot-experince.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulation_scripts/plot-experince.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulation_scripts/plot_St.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulation_scripts/plot_St.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulation_scripts/plot_frequency_coef.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulation_scripts/plot_frequency_coef.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulation_scripts/plot_mean_coef.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulation_scripts/plot_mean_coef.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulation_scripts/simulation_Cd.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulation_scripts/simulation_Cd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulation_scripts/simulation_Cd_Cl.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulation_scripts/simulation_Cd_Cl.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_class_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="155" column="26" selection-start-line="155" selection-start-column="4" selection-end-line="155" selection-end-column="26" />
+            <state relative-caret-position="176">
+              <caret line="152" column="28" selection-start-line="152" selection-start-column="28" selection-end-line="152" selection-end-column="28" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -38,9 +27,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="528">
-                <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="238">
+                <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
               </first_editor>
               <second_editor />
             </state>
@@ -183,6 +172,7 @@
         <option value="$PROJECT_DIR$/simulation_scripts/comparaison_st.py" />
         <option value="$PROJECT_DIR$/simulation_scripts/comparaison_cd.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/main_class_function.py" />
       </list>
     </option>
   </component>
@@ -211,11 +201,6 @@
             <path>
               <item name="meca_fluide" type="b2602c69:ProjectViewProjectNode" />
               <item name="meca_fluide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meca_fluide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meca_fluide" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meca_fluide" type="b2602c69:ProjectViewProjectNode" />
@@ -411,7 +396,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28477904" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.19967267" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.26022914" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3715221" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -592,16 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_class_function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="155" column="26" selection-start-line="155" selection-start-column="4" selection-end-line="155" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simulation_scripts/plot-experince.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -648,11 +623,21 @@
     <entry file="file://$PROJECT_DIR$/screenshots/simulation-velocity-re-1000.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/main_class_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="152" column="28" selection-start-line="152" selection-start-column="28" selection-end-line="152" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="528">
-            <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="238">
+            <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
           </first_editor>
           <second_editor />
         </state>
