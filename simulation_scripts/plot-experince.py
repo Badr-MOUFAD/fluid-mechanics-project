@@ -34,6 +34,6 @@ plt.xlabel("Re")
 plt.ylabel("$S_t$")
 
 # save then show plot
-plt.savefig("screenshots/real_experience_st.png")
+# plt.savefig("screenshots/real_experience_st.png")
 
 plt.show()

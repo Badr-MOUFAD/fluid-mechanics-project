@@ -126,6 +126,5 @@ dmypy.json
 
 # my folders
 simulations_outputs
-experience_data
+experiences_data
 courses_simulations
-

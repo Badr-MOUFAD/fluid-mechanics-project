@@ -34,5 +34,5 @@ axs[1].set_title("$C_l$ dominant $f$ as function of Re")
 plt.tight_layout()
 
 # save then show plot
-plt.savefig("screenshots/plot_freq_coef.png")
+# plt.savefig("screenshots/plot_freq_coef.png")
 plt.show()

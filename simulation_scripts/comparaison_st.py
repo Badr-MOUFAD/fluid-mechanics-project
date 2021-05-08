@@ -29,6 +29,6 @@ plt.xlabel("Re")
 plt.ylabel("$S_t$")
 
 # save then show plot
-plt.savefig("screenshots/comparaison_St.png")
+# plt.savefig("screenshots/comparaison_St.png")
 
 plt.show()

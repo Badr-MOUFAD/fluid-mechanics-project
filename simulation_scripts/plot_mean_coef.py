@@ -34,5 +34,5 @@ axs[1].set_title("Evolution of $C_l$ as function of Re")
 plt.tight_layout()
 
 # save then show plot
-plt.savefig("screenshots/plot_mean_coef.png")
+# plt.savefig("screenshots/plot_mean_coef.png")
 plt.show()

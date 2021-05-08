@@ -2,25 +2,11 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import os
 
-from main_class_function import ReadCoefficientsFromFile
+from main_class_function import build_dict_simulations
 
 
-# get files paths
-DIRECTORY_NAME = "simulations_outputs/"
-arr_file_path = os.listdir(DIRECTORY_NAME)
-
-# create dict of simulations
-dict_simulation = {}
-
-for file_path in arr_file_path:
-    # split to get R*** then keep numeric part
-    Re = int(file_path.split(".")[0][1:])
-
-    # add content of file to dict
-    dict_simulation[Re] = ReadCoefficientsFromFile(filename=DIRECTORY_NAME + file_path)
-
-# sort dict according to Re
-dict_simulation = {key: val for key, val in sorted(dict_simulation.items())}
+# gather simulation in a dict
+dict_simulation = build_dict_simulations()
 
 
 # init setups
@@ -82,6 +68,6 @@ anim = FuncAnimation(fig, fun_animation, dict_simulation.keys(), interval=interv
 plt.tight_layout()
 
 # save animation
-anim.save('screenshots/animation_Cd_Cl.gif', writer='Pillow', fps=60)
+# anim.save('screenshots/animation_Cd_Cl.gif', writer='Pillow', fps=60)
 
 plt.show()

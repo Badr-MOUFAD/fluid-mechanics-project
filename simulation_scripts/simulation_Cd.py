@@ -65,6 +65,6 @@ def fun_animation(i_frame):
 
 # run animation
 interval = 300
-anim = FuncAnimation(fig, fun_animation, dict_simulation.keys(), interval=interval, repeat=True)
+# anim = FuncAnimation(fig, fun_animation, dict_simulation.keys(), interval=interval, repeat=True)
 
 plt.show()

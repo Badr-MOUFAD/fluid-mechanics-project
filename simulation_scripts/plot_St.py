@@ -20,5 +20,5 @@ plt.ylabel("$S_t$")
 
 
 # save then show plot
-plt.savefig("screenshots/plot_St.png")
+# plt.savefig("screenshots/plot_St.png")
 plt.show()

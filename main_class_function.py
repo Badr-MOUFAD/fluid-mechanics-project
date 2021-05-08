@@ -150,7 +150,7 @@ class ReadCoefficientsFromFile:
 
 # gather all simulations in a dic of form { Re: simulation }
 # files must be named as R***.dat
-DIRECTORY_NAME = "simulations_outputs/"
+DIRECTORY_NAME = "simulation_outputs/"
 
 
 def build_dict_simulations(directory_path=DIRECTORY_NAME):
